@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  display: flex;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 10px;
+
+}
+.header--title{
+  margin-left: 20px;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.header--info{
+  margin-left:auto;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.dice{
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice--box{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 5px;
+}
+.button--div{
+  display: flex;
+  margin-top: 7px;
+  align-content: center;
+}
+.button--throwall, .add--players-button{
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 15px;
+    color: white;
+    border: none;
+    cursor: point;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+.button--text{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.form--scoreboard{
+  width: auto;
+}
+
+.scoreboard{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreboard--table,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+td {
+
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    border: 1px solid black;
+}
